@@ -1,0 +1,40 @@
+{
+    "name": "space mineing game",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.10.0",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.1.0",
+        "arcade-text": "github:pelikhan/arcade-image-text#v0.0.4",
+        "crow": "pub:91577-77426-84028-40685",
+        "character-animations": "github:riknoll/character-animations#v0.3.0",
+        "story": "github:riknoll/arcade-story#v1.3.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.3.44",
+        "tag": "v1.3.44",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/d1e057830c0eebc87e3e400f2106c8e1f0e5a077",
+        "target": "1.12.53",
+        "pxt": "6.8.33",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
